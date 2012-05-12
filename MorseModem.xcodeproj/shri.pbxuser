@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MyAVControllerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 285}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1296, 205}\";\n            s = 0;\n        },\n                {\n            r = \"{1568, 118}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2054}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {2802, 1102}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{137, 1019}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MorseModem */ = {
+		activeExec = 0;
+		executables = (
+			B2DB4FD812CEA6DA00B62107 /* MorseModem */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* WelcomeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 285}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{227, 1717}\";\n            s = 0;\n        },\n                {\n            r = \"{2199, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2229}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {822, 589}}";
+			sepNavSelRange = "{464, 0}";
+			sepNavVisRange = "{34, 458}";
+			sepNavWindowFrame = "{{15, 84}, {1095, 974}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B2DB4FD812CEA6DA00B62107 /* MorseModem */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MorseModem */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MorseModem */,
+		);
+		breakpoints = (
+			B2DB504512D083FE00B62107 /* MyAVController.m:313 */,
+			B21D441712F80F8200C67B18 /* WelcomeViewController.m:84 */,
+			B2ACBE3D12F811DE009A73C0 /* WelcomeViewController.m:84 */,
+			B2BC775012FA7AC1008F9451 /* MyAVController.m:264 */,
+			B2BC77E912FAAD52008F9451 /* MyAVController.m:481 */,
+			B2BC77EB12FAAD60008F9451 /* MyAVController.m:416 */,
+			B2BC77FC12FAAFB5008F9451 /* MyAVController.m:410 */,
+			B2BC782512FE7A40008F9451 /* WelcomeViewController.m:73 */,
+			B2BC782A12FE7C4E008F9451 /* Torch.m:141 */,
+			B2BC782E12FE7E51008F9451 /* Torch.m:122 */,
+			B23D04821341C6850043EC05 /* MessageSend.m:100 */,
+			B23D048B1341C7B10043EC05 /* MyAVController.m:246 */,
+			B23D04BB1341CEB40043EC05 /* MessageSend.m:101 */,
+			B29689D1135EB7A800FB7660 /* MyAVController.m:439 */,
+			B2968A8A13602EA200FB7660 /* MyAVController.m:487 */,
+			B240FCF51366A5B8001CFFE8 /* MessageSend.m:59 */,
+			B240FCF81366A61A001CFFE8 /* Torch.m:186 */,
+			B240FCFC1366A682001CFFE8 /* Torch.m:173 */,
+		);
+		codeSenseManager = B2DB4FFD12CEA70B00B62107 /* Code sense */;
+		executables = (
+			B2DB4FD812CEA6DA00B62107 /* MorseModem */,
+		);
+		expressions = (
+			mLineElements,
+			"mLineElements.value()",
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					942,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					551,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1068,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					948,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 350085704;
+			PBXWorkspaceStateSaveDate = 350085704;
+		};
+		perUserProjectItems = {
+			B240FCD113668C88001CFFE8 /* PBXTextBookmark */ = B240FCD113668C88001CFFE8 /* PBXTextBookmark */;
+			B240FD021366A780001CFFE8 /* PBXTextBookmark */ = B240FD021366A780001CFFE8 /* PBXTextBookmark */;
+			B240FD081366A780001CFFE8 /* PBXTextBookmark */ = B240FD081366A780001CFFE8 /* PBXTextBookmark */;
+			B240FD091366A780001CFFE8 /* PBXTextBookmark */ = B240FD091366A780001CFFE8 /* PBXTextBookmark */;
+			B240FD171366AC72001CFFE8 /* PBXTextBookmark */ = B240FD171366AC72001CFFE8 /* PBXTextBookmark */;
+			B240FD62136CDFDB001CFFE8 /* PBXBookmark */ = B240FD62136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD63136CDFDB001CFFE8 /* PBXBookmark */ = B240FD63136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD64136CDFDB001CFFE8 /* PBXBookmark */ = B240FD64136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD65136CDFDB001CFFE8 /* PBXBookmark */ = B240FD65136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD66136CDFDB001CFFE8 /* PBXBookmark */ = B240FD66136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD67136CDFDB001CFFE8 /* PBXBookmark */ = B240FD67136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD68136CDFDB001CFFE8 /* PBXBookmark */ = B240FD68136CDFDB001CFFE8 /* PBXBookmark */;
+			B240FD69136CDFDB001CFFE8 /* PBXTextBookmark */ = B240FD69136CDFDB001CFFE8 /* PBXTextBookmark */;
+			B240FD6A136CDFDB001CFFE8 /* PBXTextBookmark */ = B240FD6A136CDFDB001CFFE8 /* PBXTextBookmark */;
+			B240FD6B136CDFDB001CFFE8 /* PBXTextBookmark */ = B240FD6B136CDFDB001CFFE8 /* PBXTextBookmark */;
+			B240FD6C136CDFDB001CFFE8 /* PBXTextBookmark */ = B240FD6C136CDFDB001CFFE8 /* PBXTextBookmark */;
+			B25791C514DDE25000B7CC62 /* PBXTextBookmark */ = B25791C514DDE25000B7CC62 /* PBXTextBookmark */;
+			B25791C614DDE25000B7CC62 /* PBXTextBookmark */ = B25791C614DDE25000B7CC62 /* PBXTextBookmark */;
+			B2F2B81713B0952A009A5378 /* PlistBookmark */ = B2F2B81713B0952A009A5378 /* PlistBookmark */;
+			B2F2B81813B0952A009A5378 /* PBXTextBookmark */ = B2F2B81813B0952A009A5378 /* PBXTextBookmark */;
+			B2F2B90713B819E7009A5378 /* PBXTextBookmark */ = B2F2B90713B819E7009A5378 /* PBXTextBookmark */;
+			B2F2B90813B819E7009A5378 /* PBXTextBookmark */ = B2F2B90813B819E7009A5378 /* PBXTextBookmark */;
+			B2F2B90913B819E7009A5378 /* PBXTextBookmark */ = B2F2B90913B819E7009A5378 /* PBXTextBookmark */;
+			B2F2B9BF13B83624009A5378 /* PBXTextBookmark */ = B2F2B9BF13B83624009A5378 /* PBXTextBookmark */;
+			B2F2B9C013B83624009A5378 /* PBXTextBookmark */ = B2F2B9C013B83624009A5378 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B2DB4FFC12CEA70B00B62107 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {941, 298}}";
+			sepNavSelRange = "{130, 0}";
+			sepNavVisRange = "{0, 229}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MorseModem_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 645}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 89}";
+		};
+	};
+	438CE42F11D2766D00CF55BC /* MyAVController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 1387}}";
+			sepNavSelRange = "{471, 0}";
+			sepNavVisRange = "{164, 409}";
+			sepNavWindowFrame = "{{227, -235}, {1095, 999}}";
+		};
+	};
+	438CE43011D2766D00CF55BC /* MyAVController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1766, 2273}\";\n            s = 0;\n        },\n                {\n            r = \"{7699, 4236}\";\n            s = 0;\n        },\n                {\n            r = \"{19467, 241}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 20171}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1462, 7011}}";
+			sepNavSelRange = "{2905, 5}";
+			sepNavVisRange = "{1740, 1523}";
+			sepNavWindowFrame = "{{15, 84}, {1095, 974}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* MorseModem-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 67}, {1095, 991}}";
+		};
+	};
+	B21D434312F57CD400C67B18 /* MyQueue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 418}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 300}";
+		};
+	};
+	B21D434412F57CD400C67B18 /* MyQueue.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{192, 93}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 642}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 646}}";
+			sepNavSelRange = "{544, 0}";
+			sepNavVisRange = "{180, 370}";
+		};
+	};
+	B21D441712F80F8200C67B18 /* WelcomeViewController.m:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */;
+		functionName = "-startFlashcodeDetection";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = MorseModem;
+		modificationTime = 330835580.2426561;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B23D041F1341ADA30043EC05 /* MessageSend.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 608}}";
+			sepNavSelRange = "{438, 7}";
+			sepNavVisRange = "{376, 236}";
+		};
+	};
+	B23D04201341ADA30043EC05 /* MessageSend.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{812, 293}\";\n            s = 0;\n        },\n                {\n            r = \"{1141, 165}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5152}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1622, 3192}}";
+			sepNavSelRange = "{3611, 0}";
+			sepNavVisRange = "{2017, 1175}";
+		};
+	};
+	B23D04821341C6850043EC05 /* MessageSend.m:100 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B23D04201341ADA30043EC05 /* MessageSend.m */;
+		functionName = "-startMorseStrobe";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 100;
+		location = MorseModem;
+		modificationTime = 330835580.243259;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B23D048B1341C7B10043EC05 /* MyAVController.m:246 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-captureOutput:didOutputSampleBuffer:fromConnection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 246;
+		location = MorseModem;
+		modificationTime = 330835580.243292;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B23D04BB1341CEB40043EC05 /* MessageSend.m:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B23D04201341ADA30043EC05 /* MessageSend.m */;
+		functionName = "-startMorseStrobe";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = MorseModem;
+		modificationTime = 330835580.243346;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B240FCD113668C88001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B23D04201341ADA30043EC05 /* MessageSend.m */;
+		name = "MessageSend.m: 76";
+		rLen = 0;
+		rLoc = 1974;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 1360;
+	};
+	B240FCF51366A5B8001CFFE8 /* MessageSend.m:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B23D04201341ADA30043EC05 /* MessageSend.m */;
+		functionName = "-startMorseStrobe";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 59;
+		modificationTime = 330835706.8940231;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B240FCF81366A61A001CFFE8 /* Torch.m:186 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		functionName = "-startStrobesForMorseString:forCharacterInterval:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 186;
+		modificationTime = 330835706.893807;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B240FCFC1366A682001CFFE8 /* Torch.m:173 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		functionName = "-isTorchOn";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 173;
+		modificationTime = 330835706.893994;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B240FD021366A780001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B21D434412F57CD400C67B18 /* MyQueue.m */;
+		name = "MyQueue.m: 26";
+		rLen = 0;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 377;
+	};
+	B240FD081366A780001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B23D04201341ADA30043EC05 /* MessageSend.m */;
+		name = "MessageSend.m: 133";
+		rLen = 0;
+		rLoc = 4067;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 2473;
+	};
+	B240FD091366A780001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		name = "Torch.m: 22";
+		rLen = 4;
+		rLoc = 502;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 3641;
+	};
+	B240FD171366AC72001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
+		name = "MyAVController.h: 35";
+		rLen = 0;
+		rLoc = 960;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 695;
+	};
+	B240FD62136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B29689F1135EC1FD00FB7660 /* paper.jpg */;
+	};
+	B240FD63136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B2968A221360160600FB7660 /* pinebg.png */;
+	};
+	B240FD64136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B240FC3513654149001CFFE8 /* telegrams.png */;
+	};
+	B240FD65136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B240FC7113667FFD001CFFE8 /* beige-key-template.png */;
+	};
+	B240FD66136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B240FC5D136679DC001CFFE8 /* white-key-press.png */;
+	};
+	B240FD67136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B240FCC8136689E2001CFFE8 /* knob.png */;
+	};
+	B240FD68136CDFDB001CFFE8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B29689C0135EB11800FB7660 /* tile.png */;
+	};
+	B240FD69136CDFDB001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B21D434412F57CD400C67B18 /* MyQueue.m */;
+		name = "MyQueue.m: 37";
+		rLen = 0;
+		rLoc = 636;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 180;
+	};
+	B240FD6A136CDFDB001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B21D434312F57CD400C67B18 /* MyQueue.h */;
+		name = "MyQueue.h: 12";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	B240FD6B136CDFDB001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		name = "MyAVController.m: 555";
+		rLen = 0;
+		rLoc = 20115;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 19403;
+	};
+	B240FD6C136CDFDB001CFFE8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE42F11D2766D00CF55BC /* MyAVController.h */;
+		name = "MyAVController.h: 16";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 164;
+	};
+	B25791C514DDE25000B7CC62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		name = "MyAVController.m: 144";
+		rLen = 5;
+		rLoc = 5177;
+		rType = 0;
+		vrLen = 3795;
+		vrLoc = 1740;
+	};
+	B25791C614DDE25000B7CC62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B2D2EAA512DED88500C30D6A /* Torch.h */;
+		name = "Torch.h: 40";
+		rLen = 0;
+		rLoc = 937;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 924;
+	};
+	B29689D1135EB7A800FB7660 /* MyAVController.m:439 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-imageDecoderHandler";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 439;
+		location = MorseModem;
+		modificationTime = 330835580.243375;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2968A511360243300FB7660 /* XCBreakpointCommandAction */ = {
+		isa = XCBreakpointCommandAction;
+		command = "";
+		fallbackIsa = XCBreakpointAction;
+		logCommand = 0;
+		useDebuggerSideImplementation = 1;
+	};
+	B2968A8A13602EA200FB7660 /* MyAVController.m:487 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-imageDecoderHandler";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 487;
+		modificationTime = 330835706.893844;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B2ACBE3D12F811DE009A73C0 /* WelcomeViewController.m:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */;
+		functionName = "-startFlashcodeDetection";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = MorseModem;
+		modificationTime = 330835580.24273;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC775012FA7AC1008F9451 /* MyAVController.m:264 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-captureOutput:didOutputSampleBuffer:fromConnection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 264;
+		location = MyAVController;
+		modificationTime = 330835580.24276;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC77E912FAAD52008F9451 /* MyAVController.m:481 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-imageDecoderHandler";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 481;
+		location = MorseModem;
+		modificationTime = 330835580.24281;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC77EB12FAAD60008F9451 /* MyAVController.m:416 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-imageDecoderHandler";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 416;
+		location = MorseModem;
+		modificationTime = 330835580.2429219;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC77FC12FAAFB5008F9451 /* MyAVController.m:410 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+			B2968A511360243300FB7660 /* XCBreakpointCommandAction */,
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-imageDecoderHandler";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 410;
+		modificationTime = 330835706.893586;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B2BC782512FE7A40008F9451 /* WelcomeViewController.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */;
+		functionName = "-startMorseStrobe";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = MorseModem;
+		modificationTime = 330835580.243127;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC782A12FE7C4E008F9451 /* Torch.m:141 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		functionName = "-strobeTimerLoopActionMorse";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 141;
+		location = MyAVController;
+		modificationTime = 330835580.243162;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2BC782E12FE7E51008F9451 /* Torch.m:122 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		functionName = "-strobeTimerLoopActionMorse";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 122;
+		modificationTime = 330835706.893949;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B2D2EAA512DED88500C30D6A /* Torch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1042, 1026}}";
+			sepNavSelRange = "{937, 0}";
+			sepNavVisRange = "{192, 1027}";
+		};
+	};
+	B2D2EAA612DED88500C30D6A /* Torch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 4598}}";
+			sepNavSelRange = "{4448, 0}";
+			sepNavVisRange = "{4689, 534}";
+		};
+	};
+	B2DB4FD812CEA6DA00B62107 /* MorseModem */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 0;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MorseModem;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			"alphabetMorse-NSString *--[Torch startStrobesForMorseString:forCharacterInterval:]" = 4;
+		};
+	};
+	B2DB4FFC12CEA70B00B62107 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B2DB4FFD12CEA70B00B62107 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B2DB504512D083FE00B62107 /* MyAVController.m:313 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		functionName = "-calculateMean:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 313;
+		location = MorseModem;
+		modificationTime = 330835580.24252;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B2DB50A312D0965A00B62107 /* doesntworkcode.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 3933}}";
+			sepNavSelRange = "{7737, 0}";
+			sepNavVisRange = "{0, 1308}";
+		};
+	};
+	B2F2B81713B0952A009A5378 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MorseModem-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/shri/Documents/Apps/ios/todd/MorseModem/decoder/MorseModem-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B2F2B81813B0952A009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */;
+		name = "MyAVControllerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 218;
+	};
+	B2F2B90713B819E7009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B2D2EAA612DED88500C30D6A /* Torch.m */;
+		name = "Torch.m: 194";
+		rLen = 0;
+		rLoc = 4448;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 4689;
+	};
+	B2F2B90813B819E7009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* WelcomeViewController.m */;
+		name = "WelcomeViewController.m: 87";
+		rLen = 0;
+		rLoc = 2180;
+		rType = 0;
+		vrLen = 2195;
+		vrLoc = 34;
+	};
+	B2F2B90913B819E7009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MyAVControllerAppDelegate.m */;
+		name = "MyAVControllerAppDelegate.m: 12";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 137;
+	};
+	B2F2B9BF13B83624009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 438CE43011D2766D00CF55BC /* MyAVController.m */;
+		name = "MyAVController.m: 144";
+		rLen = 5;
+		rLoc = 5177;
+		rType = 0;
+		vrLen = 3797;
+		vrLoc = 1738;
+	};
+	B2F2B9C013B83624009A5378 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B2D2EAA512DED88500C30D6A /* Torch.h */;
+		name = "Torch.h: 40";
+		rLen = 0;
+		rLoc = 937;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 924;
+	};
+}

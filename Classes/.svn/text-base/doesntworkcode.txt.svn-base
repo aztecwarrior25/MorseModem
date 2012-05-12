@@ -1,0 +1,210 @@
+- (void) calculateMean:(CGImageRef) inImage {
+	float meanAll = 0.0f;
+	float meanR = 0.0f;
+	float meanG = 0.0f;
+	float meanB = 0.0f;
+	float meanA = 0.0f;
+	/* This is failing :( vm_error 
+	 NSData* pixelData = (NSData*) CGDataProviderCopyData(CGImageGetDataProvider(image));
+	 unsigned char* pixelBytes = (unsigned char *)[pixelData bytes];
+	 */
+	
+	/* Also failing Apple code 
+	 // Create the bitmap context
+	 CGContextRef cgctx = [self CreateARGBBitmapContext:inImage];
+	 if (cgctx == NULL) 
+	 { 
+	 // error creating context
+	 return;
+	 }
+	 
+	 // Get image width, height. We'll use the entire image.
+	 size_t w = CGImageGetWidth(inImage);
+	 size_t h = CGImageGetHeight(inImage);
+	 CGRect rect = {{0,0},{w,h}}; 
+	 
+	 // Draw the image to the bitmap context. Once we draw, the memory 
+	 // allocated for the context for rendering will then contain the 
+	 // raw image data in the specified color space.
+	 CGContextDrawImage(cgctx, rect, inImage); 
+	 
+	 // Now we can get a pointer to the image data associated with the bitmap
+	 // context.
+	 void *data = CGBitmapContextGetData(cgctx);
+	 if (data != NULL)
+	 {do something }
+	 // When finished, release the context
+	 //CGContextRelease(cgctx); 
+	 // Free image data memory for the context
+	 if (data)
+	 {
+	 free(data);
+	 }
+	 */
+	
+	CGImageRef imageRef = inImage;
+    NSUInteger width = CGImageGetWidth(imageRef);
+    NSUInteger height = CGImageGetHeight(imageRef);
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    unsigned char *rawData = malloc(height * width * 4);
+    NSUInteger bytesPerPixel = 4;
+    NSUInteger bytesPerRow = bytesPerPixel * width;
+    NSUInteger bitsPerComponent = 8;
+    CGContextRef context = CGBitmapContextCreate(rawData, width, height,
+												 bitsPerComponent, bytesPerRow, colorSpace,
+												 kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
+    CGColorSpaceRelease(colorSpace);
+	
+    CGContextDrawImage(context, CGRectMake(0, 0, width, height), imageRef);
+    CGContextRelease(context);
+	
+			unsigned char* pixelBytes = (unsigned char *) rawData;
+        // **** You have a pointer to the image data ****
+		
+        // **** Do stuff with the data here ****
+		
+		
+		size_t pixelsWide = CGImageGetWidth(inImage);
+		size_t pixelsHigh = CGImageGetHeight(inImage);
+		int totalPixels = pixelsHigh*pixelsWide;
+		//totalPixels = totalPixels/4;
+		
+		// sum, assuming 32-bit RGBA
+		for(int i = 0; i < totalPixels; i += 4) {
+			meanR += pixelBytes[i]; // red
+			meanG += pixelBytes[i+1]; // green
+			meanB += pixelBytes[i+2]; // blue
+			meanA += pixelBytes[i+3]; // alpha
+		}
+		
+		meanR = meanR/totalPixels;
+		meanG = meanG/totalPixels;
+		meanB = meanB/totalPixels;
+		meanA = meanA/totalPixels;
+		meanAll = (meanR + meanG + meanB + meanA)/4;
+		
+		nameLabel.text = [NSString stringWithFormat:@"MeanRGB: %1.2f, %1.2f, %1.2f", meanR, meanG, meanB];	
+		meanLabel.text = [NSString stringWithFormat:@"MeanTotal: %1.2f alpha %0.2f", meanAll, meanA];
+	free(rawData);
+	}
+
+
+
+/*From Apple Not worky worky*/
+-(CGContextRef) CreateARGBBitmapContext:(CGImageRef) inImage {
+    CGContextRef    context = NULL;
+    CGColorSpaceRef colorSpace;
+    void *          bitmapData;
+    int             bitmapByteCount;
+    int             bitmapBytesPerRow;
+	
+	// Get image width, height. We'll use the entire image.
+    size_t pixelsWide = CGImageGetWidth(inImage);
+    size_t pixelsHigh = CGImageGetHeight(inImage);
+	
+    // Declare the number of bytes per row. Each pixel in the bitmap in this
+    // example is represented by 4 bytes; 8 bits each of red, green, blue, and
+    // alpha.
+    bitmapBytesPerRow   = (pixelsWide * 4);
+    bitmapByteCount     = (bitmapBytesPerRow * pixelsHigh);
+	
+    // Use the generic RGB color space.
+    colorSpace = CGColorSpaceCreateWithName(kCGColorSpaceModelRGB);
+    if (colorSpace == NULL)
+    {
+        fprintf(stderr, "Error allocating color space\n");
+        return NULL;
+    }
+	
+    // Allocate memory for image data. This is the destination in memory
+    // where any drawing to the bitmap context will be rendered.
+    bitmapData = malloc( bitmapByteCount );
+    if (bitmapData == NULL) 
+    {
+        fprintf (stderr, "Memory not allocated!");
+        CGColorSpaceRelease( colorSpace );
+        return NULL;
+    }
+	
+    // Create the bitmap context. We want pre-multiplied ARGB, 8-bits 
+    // per component. Regardless of what the source image format is 
+    // (CMYK, Grayscale, and so on) it will be converted over to the format
+    // specified here by CGBitmapContextCreate.
+    context = CGBitmapContextCreate (bitmapData,
+									 pixelsWide,
+									 pixelsHigh,
+									 8,      // bits per component
+									 bitmapBytesPerRow,
+									 colorSpace,
+									 kCGImageAlphaPremultipliedFirst);
+    if (context == NULL)
+    {
+        free (bitmapData);
+        fprintf (stderr, "Context not created!");
+    }
+	
+    // Make sure and release colorspace before returning
+    CGColorSpaceRelease( colorSpace );
+	
+    return context;
+}
+
+
+
+// Log output experitment dark 
+dark
+2011-01-02 05:57:11.734 MyAVController[2178:307] Received memory warning. Level=1
+2011-01-02 05:57:16.704 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:17.065 MyAVController[2178:5d03] MeanRGB: 0.78, 0.39, 0.42
+2011-01-02 05:57:17.069 MyAVController[2178:5d03] MeanTotal: 0.53 grayscaled 
+2011-01-02 05:57:22.103 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:22.454 MyAVController[2178:5d03] MeanRGB: 0.76, 0.38, 0.43
+2011-01-02 05:57:22.457 MyAVController[2178:5d03] MeanTotal: 0.52 grayscaled 
+2011-01-02 05:57:27.503 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:27.858 MyAVController[2178:5d03] MeanRGB: 0.72, 0.38, 0.44
+2011-01-02 05:57:27.862 MyAVController[2178:5d03] MeanTotal: 0.52 grayscaled 
+
+
+
+
+2011-01-02 05:57:32.804 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:33.162 MyAVController[2178:5d03] MeanRGB: 2.43, 2.24, 2.27
+2011-01-02 05:57:33.166 MyAVController[2178:5d03] MeanTotal: 2.31 grayscaled 
+
+
+
+
+
+2011-01-02 05:57:38.203 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:38.554 MyAVController[2178:5d03] MeanRGB: 2.80, 2.45, 2.94
+2011-01-02 05:57:38.558 MyAVController[2178:5d03] MeanTotal: 2.73 grayscaled 
+2011-01-02 05:57:43.533 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:43.995 MyAVController[2178:5d03] MeanRGB: 2.70, 2.38, 2.80
+2011-01-02 05:57:44.007 MyAVController[2178:5d03] MeanTotal: 2.63 grayscaled 
+2011-01-02 05:57:49.003 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:49.354 MyAVController[2178:5d03] MeanRGB: 2.82, 2.54, 2.94
+2011-01-02 05:57:49.358 MyAVController[2178:5d03] MeanTotal: 2.77 grayscaled 
+2011-01-02 05:57:54.304 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:57:54.701 MyAVController[2178:5d03] MeanRGB: 2.77, 2.46, 2.86
+2011-01-02 05:57:54.706 MyAVController[2178:5d03] MeanTotal: 2.70 grayscaled 
+2011-01-02 05:57:59.704 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:58:00.060 MyAVController[2178:5d03] MeanRGB: 2.66, 2.50, 2.99
+2011-01-02 05:58:00.064 MyAVController[2178:5d03] MeanTotal: 2.72 grayscaled 
+
+
+
+
+
+
+2011-01-02 05:58:05.205 MyAVController[2178:5d03] Calculating mean
+
+
+2011-01-02 05:58:05.563 MyAVController[2178:5d03] MeanRGB: 0.15, 0.19, 0.35
+2011-01-02 05:58:05.567 MyAVController[2178:5d03] MeanTotal: 0.23 grayscaled 
+2011-01-02 05:58:10.615 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:58:10.962 MyAVController[2178:5d03] MeanRGB: 0.32, 0.40, 0.52
+2011-01-02 05:58:10.966 MyAVController[2178:5d03] MeanTotal: 0.42 grayscaled 
+2011-01-02 05:58:16.006 MyAVController[2178:5d03] Calculating mean
+2011-01-02 05:58:16.364 MyAVController[2178:5d03] MeanRGB: 0.39, 0.47, 0.62
+2011-01-02 05:58:16.381 MyAVController[2178:5d03] MeanTotal: 0.49 grayscaled 
+

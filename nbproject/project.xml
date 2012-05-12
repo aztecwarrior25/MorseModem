@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <name>MorseDummy</name>
+        </general-data>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/2">
+            <!-- Do not use Project Properties customizer when editing this file manually. -->
+            <name>MorseDummy</name>
+            <properties>
+                <property name="ant.script">MainWindow.xib</property>
+            </properties>
+            <folders>
+                <source-folder>
+                    <label>Classes</label>
+                    <type>java</type>
+                    <location>Classes</location>
+                    <encoding>MacRoman</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>MyAVController.xcodeproj</label>
+                    <type>java</type>
+                    <location>MyAVController.xcodeproj</location>
+                    <encoding>MacRoman</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>MorseDummy</label>
+                    <location>.</location>
+                    <encoding>MacRoman</encoding>
+                </source-folder>
+            </folders>
+            <ide-actions/>
+            <view>
+                <items>
+                    <source-folder style="packages">
+                        <label>Classes</label>
+                        <location>Classes</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>MyAVController.xcodeproj</label>
+                        <location>MyAVController.xcodeproj</location>
+                    </source-folder>
+                    <source-file>
+                        <location>${ant.script}</location>
+                    </source-file>
+                </items>
+                <context-menu/>
+            </view>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/1">
+            <compilation-unit>
+                <package-root>Classes</package-root>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>MyAVController.xcodeproj</package-root>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+    </configuration>
+</project>
